@@ -43,13 +43,15 @@ second difference.
 ## Inference ##
 
 Now, after the analysis, it can be concluded that Seasonal ARIMA will be a good model for this
-dataset. There were a total of 523 data points for coal-based power plants. We used the first
-480 points to build the model and the remaining data points from 480 for prediction. For
+dataset. 
+- There were a total of 523 data points for coal-based power plants. We used the first
+480 points to build the model and the remaining data points from 480 for prediction. 
+- For
 validation, it can be observed in the plot that the actual values from 480 to 523 lies in the
 confidence interval of the forecast.
-After several iterations and the observations we made earlier, the model we used was
+- After several iterations and the observations we made earlier, the model we used was
 SARIMA(1,0,1)(1,1,1,6)
-The Mean Squared Error (MSE) of the forecast comes out to be 275.64 and the Root Mean
+- The Mean Squared Error (MSE) of the forecast comes out to be 275.64 and the Root Mean
 Square Error (RMSE) of the forecast comes out to be 16.60.
 
 ## Conclusion ##
