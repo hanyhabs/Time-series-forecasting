@@ -10,11 +10,8 @@ Energy Information Administration and Jason McNeill. The dataset includes CO2 em
 from each energy resource starting January 1973 to July 2016.
 
 Data : https://www.kaggle.com/datasets/txtrouble/carbon-emissions
-Time series is a sequence of data points collected over a period of time, with a fixed frequency
-between the data points. Time series analysis is a method used to understand and extract
-information from these data points, which may have trends, seasonal patterns, or other dynamic
-features. This can be useful for making informed decisions and predicting future outcomes. In
-this project, we retrieved the mentioned time series dataset, visualized it, and transformed it into
+
+ In this project, we retrieved the above mentioned time series dataset, visualized it, and transformed it into
 a time series format. We performed a stationarity test. We used PCF and ACF plots to get an
 idea about the AR and MA values. We then used Seasonal Autoregressive Integrated Moving
 Average (SARIMA) model to make predictions and forecast future CO2 emissions from power
